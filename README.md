@@ -1,4 +1,4 @@
-![image]($GDMI@8%7B0WKFH0J0ZNLRE73.png)
+![image]([https://raw.githubusercontent.com/TRLVMMR/distributed_transaction/master/%24GDMI%408%7B0WKFH0J0ZNLRE73.png](https://raw.githubusercontent.com/TRLVMMR/distributed_transaction/master/123.png)
 
 这叫独立消息的最终一致性，有三个角色
 
