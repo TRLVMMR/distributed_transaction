@@ -1,0 +1,29 @@
+server:
+  port: 8050
+
+spring:
+  application:
+    name: transaction-msghandler
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  rabbitmq:
+    host: 192.168.56.102
+    port: 5672
+    username: guest
+    password: guest
+    template:
+      retry:
+        enabled: true
+        initial-interval: 2s
+    # 开启发送失败退回
+    publisher-returns: true
+    # 开启发送确认
+    publisher-confirm-type: correlated
+
+  redis:
+    host: 192.168.56.102
+    port: 6389
+    password: root
+

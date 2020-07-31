@@ -1,0 +1,35 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: transaction-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  datasource:
+    url: jdbc:mysql://192.168.56.102:3307/transcation?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#  redis:
+#    host: 192.168.56.102
+#    port: 6389
+#    password: root
+#  rabbitmq:
+#    host: 192.168.56.102
+#    port: 5672
+#    username: guest
+#    password: guest
+#    template:
+#      retry:
+#        enabled: true
+#        initial-interval: 2s
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 3000
+        readTimeout: 3000
+
+
