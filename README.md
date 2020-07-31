@@ -1,4 +1,4 @@
-![image](16d613189a77b85e.jpg)
+![image]($GDMI@8%7B0WKFH0J0ZNLRE73.png)
 
 这叫独立消息的最终一致性，有三个角色
 
